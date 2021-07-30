@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+    .advantages {
+        &__wrapper {
+            margin: 0 30px;
+            margin-top: 40px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .advantages {
+        &__wrapper {
+            margin: 0 30px;
+            margin-top: 40px;
+        }
+        &__item {
+            width: 209px;
+        }
+        &__subtitle {
+            margin-top: 35px;
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .advantages {
+        &__wrapper {
+            margin: 0 30px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__descr {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 240px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .advantages {
+        &__subtitle {
+            margin-top: 0;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+}
