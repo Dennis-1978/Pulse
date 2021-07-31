@@ -3,8 +3,14 @@
         font-size: 27px;
     }
 }
+@media (max-width: 991px) {
+    .title {
+        font-size: 27px;
+    }
+}
 @media (max-width: 575px) {
     .title {
         font-size: 23px;
     }
+    
 }
