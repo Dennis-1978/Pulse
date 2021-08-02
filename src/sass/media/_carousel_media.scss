@@ -1,21 +1,24 @@
 @media (max-width: 1200px) {
     .carousel {
-        max-width: 85%;
         margin: 50px auto;
+        max-width: 85%;
         &__inner {
             img {
-            width: 80%;
-            }
+                margin: 0 px;
+                width: 80%;
+                }
         }
+        .prev, .next {
+            img {
+                margin: 0 30px;
+            }
+        }   
     }
 }
 @media (max-width: 767px) {
-    .prev {
+    .prev, .next {
         display: none;
-    }
-    .next {
-        display: none;
-    }
+    }   
     .tns-outer {
         position: relative;
         .tns-nav {
@@ -23,6 +26,7 @@
             width: 100%;
             text-align: center;
             bottom: -20%;
+            z-index: 1;
         }
         .tns-nav > [aria-controls] {
             margin: 0 4px;
