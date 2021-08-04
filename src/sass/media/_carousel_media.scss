@@ -1,42 +1,41 @@
 @media (max-width: 1200px) {
-    .carousel {
-        margin: 50px auto;
-        max-width: 85%;
-        &__inner {
-            img {
-                margin: 0 px;
-                width: 80%;
-                }
-        }
-        .prev, .next {
-            img {
-                margin: 0 30px;
-            }
-        }   
-    }
+	.carousel {
+		margin: 50px auto;
+		max-width: 80%;
+		&__inner {
+			img {
+				width: 80%;
+				}
+		}
+		.prev, .next {
+			img {
+				margin: 0 30px;
+			}
+		}
+	}
 }
 @media (max-width: 767px) {
-    .prev, .next {
-        display: none;
-    }   
-    .tns-outer {
-        position: relative;
-        .tns-nav {
-            position: absolute;
-            width: 100%;
-            text-align: center;
-            bottom: -20%;
-            z-index: 1;
-        }
-        .tns-nav > [aria-controls] {
-            margin: 0 4px;
-            background-color: rgba($color: #8c8c8c, $alpha: 0.8);
-            width: 10%;
-            height: 10px;
-            border: none;
-        }
-        .tns-nav > .tns-nav-active {
-            background-color:rgba($color: #c70101, $alpha: .9)
-        }
-    }
+	.prev, .next {
+		display: none;
+	}   
+	.tns-outer {
+		position: relative;
+		.tns-nav {
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			bottom: -20%;
+			z-index: 1;
+		}
+		.tns-nav > [aria-controls] {
+			margin: 0 4px;
+			background-color: rgba($color: #8c8c8c, $alpha: 0.8);
+			width: 10%;
+			height: 10px;
+			border: none;
+		}
+		.tns-nav > .tns-nav-active {
+			background-color:rgba($color: #c70101, $alpha: .9)
+		}
+	}
 }
